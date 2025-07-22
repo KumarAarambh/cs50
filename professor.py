@@ -29,7 +29,7 @@ def generate_integer(level):
                 try:
                     user_sol = int(input(f'{x} + {y} = '))
                     if user_sol == x + y:
-                        i = i+1
+                        i +=1
                         break
                 except:
                     if error < 3:
